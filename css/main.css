@@ -1,6 +1,35 @@
-h1 {
-    background-color: blue;
+*{
+    box-sizing: border-box;
 }
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+
+h1 {
+    background-color: #ce9c5b;
+    color: white;
+}
+
+.selectingLevelBtn {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 1em 2em 2em 1em;
+    border-radius: 15em;
+    font-family: 'Roboto', sans-serif;
+    color:  burlywood;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.selectingLevelBtn:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
 
 table {
     margin: auto;
@@ -14,8 +43,8 @@ table {
 .cell {
     border: 2px solid rgb(0, 0, 0);
     background-color: aqua;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -23,13 +52,11 @@ table {
     background-color: rgb(113, 255, 255);
 }
 
-.hidden {
-    display: none;
-}
 .marked {
     background-color: brown;
     cursor: not-allowed;
 }
+
 .marked:hover {
     background-color: brown;
 }
