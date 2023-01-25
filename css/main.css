@@ -1,0 +1,35 @@
+h1 {
+    background-color: blue;
+}
+
+table {
+    margin: auto;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.cell {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: rgb(113, 255, 255);
+}
+
+.hidden {
+    display: none;
+}
+.marked {
+    background-color: brown;
+    cursor: not-allowed;
+}
+.marked:hover {
+    background-color: brown;
+}
