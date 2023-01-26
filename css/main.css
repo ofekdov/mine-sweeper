@@ -30,6 +30,34 @@ h1 {
     background-color: #FFFFFF;
 }
 
+.hint {
+    border: 2px solid lightyellow;
+    background-color: burlywood;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hint:hover {
+    background-color: lightyellow;
+}
+
+.emoji {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 5px solid grey;
+    display: block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.emoji:hover {
+    background-color: aliceblue;
+}
 
 table {
     margin: auto;
@@ -42,7 +70,7 @@ table {
 
 .cell {
     border: 2px solid rgb(0, 0, 0);
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 60px;
     height: 40px;
     cursor: pointer;
@@ -59,4 +87,12 @@ table {
 
 .marked:hover {
     background-color: brown;
+}
+
+.shown {
+    background-color: #f5bc71;
+    color: beige;
+}
+.mine {
+    background-color: rgb(255, 57, 57);
 }
