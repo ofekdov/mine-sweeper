@@ -47,8 +47,9 @@ h1 {
     margin: auto;
     margin-bottom: 15px;
     margin-top: 5px;
+    margin-right: 10px;
     border: 5px solid grey;
-    display: block;
+    display:inline-block;
     width: 35px;
     height: 35px;
     cursor: pointer;
@@ -57,6 +58,20 @@ h1 {
 
 .emoji:hover {
     background-color: aliceblue;
+}
+
+.timer {    
+    display: inline-block;
+    font-size: 20px;
+    width: 60px;
+    background-color: rgb(255, 230, 201);
+    border: 3px solid rgb(199, 106, 0);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.bestScores {
+    display: inline;
 }
 
 table {
@@ -96,3 +111,11 @@ table {
 .mine {
     background-color: rgb(255, 57, 57);
 }
+
+.hidden{
+    display: none;
+}
+
+
+
+

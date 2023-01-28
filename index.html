@@ -9,7 +9,7 @@
     <h1>mine-sweeper</h1>
     <h2><span class="lifeCount">3</span> lives left</h2>
 
-    <button class="selectingLevelBtn" onclick="changingSizeBoard(4,2)">begginer(4X4)</button>
+    <button class="selectingLevelBtn" onclick="changingSizeBoard(4,3)">begginer(4X4)</button>
     <button class="selectingLevelBtn" onclick="changingSizeBoard(8,14)">medium(8X8)</button>
     <button class="selectingLevelBtn" onclick="changingSizeBoard(12,32)">expert(12X12)</button>
 
@@ -20,6 +20,13 @@
     </div>
 
     <div class="emoji" onclick="restartGame()">😃</div>
+
+    <div class="timer"></div>
+
+    <div class="bestScores">
+        best score is: <span class="bestScore"></span>
+        
+    </div>
 
     <table>
         <tbody class="board"></tbody>
